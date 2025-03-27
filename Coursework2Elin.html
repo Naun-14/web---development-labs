@@ -7,30 +7,50 @@
         <meta name="viewport" content="width=device-width, initial scale=1.0">
   </head>
     <body>
-<!-- Navbar -->
+<!-- Navbar & Header -->
         <nav class="navbar navbar-expand-lg bg-$orange-700 border-bottom shadow mb-4">
-    <div class="container-fluid">
-      <a class="navbar-brand fw-bold text-dark" href="#"><strong>Wee Bakery</strong></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav fw-semibold">
-          <li class="nav-item"><a class="nav-link text-dark" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link text-dark" href="#">About us</a></li>
-          <li class="nav-item"><a class="nav-link text-dark" href="#">Ordering</a></li>
-          <li class="nav-item"><a class="nav-link text-dark" href="#">Menu</a></li>
-          <li class="nav-item"><a class="nav-link text-dark" href="#">Special Occasions</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+            <div class="container-fluid">
+              <a class="navbar-brand fw-bold text-dark" href="#"><strong><h1>Wee Bakery</h1></strong></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav fw-semibold">
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">About us</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Ordering</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Special Occasions</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 
-<!-- Header -->
-      <div class="container">
-        <div class="row">
-          <div class="col-12  bg-info text-white p-3"><h1><center>Idiom Mon</center></h1></div>
 <!-- First row - Main compartment + other -->
+    <div class="row mb-4 g-3">
+        <div class="col-12 col-md-8">
+          <div class="card shadow-lg border-0 bg-light">
+            <img src="https://picsum.photos/700/300" class="card-img-top" alt="Main Story Image">
+            <div class="card-body">
+              <h5 class="card-title text-primary fw-bold">Main Story Headline</h5>
+              <p class="card-text">This is a short summary of the main story. Click below to read more.</p>
+              <a href="#" class="btn btn-outline-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 d-none d-md-block">
+          <ul class="list-group shadow">
+            <li class="list-group-item bg-info text-white"><a href="#" class="text-white text-decoration-none">Side Story 1 – Brief headline</a></li>
+            <li class="list-group-item bg-danger text-white"><a href="#" class="text-white text-decoration-none">Side Story 2 – Another quick headline</a></li>
+            <li class="list-group-item bg-success text-white"><a href="#" class="text-white text-decoration-none">Side Story 3 – One more brief headline</a></li>
+          </ul>
+        </div>
+
+    <div class="col-12 d-block d-md-none alert alert-warning text-center mt-2">
+      Side stories available on larger screens.
+    </div>
+  </div> 
         <div class="container">
             <div class="row">
                 <div class="col-sm"> Media </div>
